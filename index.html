@@ -12,6 +12,15 @@
 Navbar -->
 
 <body background="image2.jpg">
+    <style>
+        body {
+
+            height: fit-content;
+            width: ;
+    </style>
+    <style>
+        image rep
+    </style>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> Weather App</a>
@@ -36,12 +45,17 @@ Navbar -->
                         </a>
 
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">
 
-                                    The essential weather app features include time of
-                                    Sunrise and Sunset,Cloud Pct,humidity,wind predictions, etc.
+                            <li><a class="dropdown-item" href="#">Temperature</a></li>
+                            <li><a class="dropdown-item" href="#">Cloud Pct</a></li>
+                            <li><a class="dropdown-item" href="#">Humidity</a></li>
+                            <li><a class="dropdown-item" href="#">Sunrise and Sunset</a></li>
 
-                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                                </hr>
+                            </li>
+                            <li><a class="dropdown-item" href="#">wind predictions</a></li>
 
                         </ul>
 
@@ -55,14 +69,13 @@ Navbar -->
 
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Pune</a></li>
-                            <li><a class="dropdown-item" href="#">Delhi</a></li>
-                            <li><a class="dropdown-item" href="#">Mumbai</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                                </hr>
+                            <li><a class="dropdown-item" href="#" ">Pune</a></li>
+                            <li><button class=" dropdown-item" id="delhi" onclick="changeDelhi()">Delhi</button>
                             </li>
-                            <li><a class="dropdown-item" href="#">Bangalore</a></li>
+                            <li><button onclick="changeMumbai()" class=" dropdown-item">Mumbai</button>
+                            </li>
+
+                            <li><button class="dropdown-item" onclick="changeBanglore()">Bengaluru</button></li>
                         </ul>
 
                     </li>
