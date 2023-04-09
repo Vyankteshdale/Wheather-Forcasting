@@ -37,3 +37,22 @@ submit.addEventListener("click", (e) => {
 getWeather("Pune")
 
 
+const span = document.getElementById("cityName")
+
+
+const changeDelhi = () => {
+    const delhiParam = span.innerHTML = "Delhi";
+    getWeather(delhiParam)
+}
+
+const changeMumbai = () => {
+    const mumbaiParam = span.innerHTML = "Mumbai";
+    getWeather(mumbaiParam)
+}
+
+const changeBanglore = () => {
+    const bangParam = span.innerHTML = "Bengaluru";
+    getWeather(bangParam)
+}
+
+
